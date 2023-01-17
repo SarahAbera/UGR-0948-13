@@ -1,0 +1,37 @@
+.login-container {
+  padding: 10px;
+  
+}
+.login-container__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffe5c4;
+  width: 500px;
+  margin: 2rem auto;
+  padding: 2rem 1rem;
+}
+.login-container__form input {
+  width: 400px;
+  height: 2rem;
+}
+.login-container__form-btns {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  
+}
+
+.login-container__form-btns button {
+  width: 100px;
+  background-color: #f9ae4d;
+  border: none;
+  height: 40px;
+}
+.forget-container {
+  text-align: end;
+  font-size: 1rem;
+}
+@media screen and (0<width<880px){
+  
+}

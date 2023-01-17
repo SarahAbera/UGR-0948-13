@@ -1,0 +1,83 @@
+.cultural-cloth__table {
+  width: 90%;
+  margin: 2rem auto;
+  overflow-x: scroll;
+}
+.cultural-header{
+  font-size: 34px;
+  margin-top: 32px;
+}
+.cultural-intro> h2,p{
+  margin-left: 30px ;
+}
+
+.clothing-section > div {
+  margin: 3rem auto;
+}
+.clothing-section > div > h3 {
+  font-size: 2rem;
+  width: 90%;
+  margin: 2rem auto;
+}
+
+.clothing-section > div > div {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.clothing-section > div > div > div {
+  padding: 10px;
+  box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.07);
+}
+.clothing-section > div > div img {
+  width: 350px;
+  height: 425px;
+}
+
+.clothing-section > div > div button {
+  background-color:#de7d22;
+  width: 120px;
+  height: 2.25rem;
+  color: black;
+  display: block;
+  margin: auto;
+  border: none;
+  transition: 0.25s;
+}
+.clothing-section > div > div button:hover{
+  cursor: pointer;
+  background-color:  #f1a054;
+}
+
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #ffffff; 
+  text-align: left;
+  padding: 8px;
+}
+
+tr {
+  background-color: #fdcea2; 
+}
+a {
+  color: black;
+}
+a:hover {
+  color:rgb(166, 25, 25)
+} 
+
+@media screen and (0<width<520px) {
+  .clothing-section > div > div img {
+    width: 300px;
+    height: 400px;
+  }
+}

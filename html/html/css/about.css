@@ -1,0 +1,45 @@
+p,h4{
+  margin-left: 6px;
+}
+.about-container {
+  width: 90%;
+  margin: 1rem auto;
+}
+.about-flex > div {
+  width: 80%;
+
+  margin: 2rem auto;
+  display: flex;
+
+  gap: 1rem;
+}
+.about-header{
+  font-size: 32px;
+  text-align: left;
+}
+.about__description{
+  background-color: #ffe5c4;
+  
+}
+.about-flex > div > div {
+  width: 50%;
+}
+.about-flex > div > div > img {
+  width: 100%;
+  height: 450px;
+}
+
+@media screen and (0<width<790px) {
+  .about-flex {
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+  }
+  .about-flex > div {
+    width: 100%;
+    flex-direction: column;
+  }
+  .about-flex > div > div {
+    width: 85%;
+  }
+}
